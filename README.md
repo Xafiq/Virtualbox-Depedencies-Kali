@@ -4,12 +4,12 @@ Installing VirtualBox in Kali, expect some twists like missing dependencies or k
 
 ---
 
-Dependency issues like:  Package 'libvpx*' is not installed. Package 'libqt5opengl*' is missing.'
+Dependency issues like:  Package lib* is not installed. Package lib* is missing.'
 You may encounter dependency issues like:
 
 ```bash
-Package 'libvpx*' is not installed.
-Package 'libqt5opengl*' is missing.'
+Package 'lib*' is not installed.
+Package 'lib*' is missing.'
 ```
 
 ---
@@ -19,8 +19,8 @@ Package 'libqt5opengl*' is missing.'
 Let's install the missing packages manually. Here are a couple of common ones:
 
 ```bash
-sudo apt install libvpx*
-sudo apt install libqt5opengl*
+sudo apt install lib*
+sudo apt-get install lib*
 ```
 
 If you get errors like "package not found," try grabbing them from [pkgs.org](https://pkgs.org/) or download the `.deb` files from the Debian repo
